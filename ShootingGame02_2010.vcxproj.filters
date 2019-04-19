@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ENGINE">
+      <UniqueIdentifier>{ab98c1dd-8564-4a96-ba15-63082c1fb5eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{83ce0954-e3c9-4a64-ba3e-b5078435f126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="ENGINE\Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="GAME\Maingame">
+      <UniqueIdentifier>{4bceb636-a081-4fef-a806-ab2f745592be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\Singleton">
+      <UniqueIdentifier>{d65b03d5-8206-4b63-94dc-3daa40b713a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS">
+      <UniqueIdentifier>{d7160948-9e7f-4a41-9f86-6671c2f2ea4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Image">
+      <UniqueIdentifier>{9262ebcb-e93b-406b-bb5c-c146894b8b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Scene">
+      <UniqueIdentifier>{10c3f023-f259-4ca5-bdb9-43a0f7b30906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Object">
+      <UniqueIdentifier>{88f4b86b-ed99-44c9-8256-e4d2e71cb650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Input">
+      <UniqueIdentifier>{2562c107-2541-424f-9688-a4ee73a34f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Collision">
+      <UniqueIdentifier>{72d01b49-584c-4985-a250-44fed57b017c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Camera">
+      <UniqueIdentifier>{dce825d8-3bf6-4202-80ee-1c76bdd464c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\OBJECTS">
+      <UniqueIdentifier>{a8d97019-8cda-468d-860e-b825a0fa19b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\OBJECTS\GameObject">
+      <UniqueIdentifier>{fac38d2f-d160-4176-8f2b-4d90d5a6e467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\OBJECTS\Texture">
+      <UniqueIdentifier>{21364ce3-2b0d-4eb2-981e-79bb88fb49e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\OBJECTS\Texture\Frame">
+      <UniqueIdentifier>{9c08ca23-c685-420a-8281-328756d0d04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\OBJECTS\Collider">
+      <UniqueIdentifier>{b28476d0-fe67-40f0-84da-d8469ef3403e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\OBJECTS\Scene">
+      <UniqueIdentifier>{5de81598-aac0-484a-a47a-2e1d478c4b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes">
+      <UniqueIdentifier>{a84d928a-a077-4a9f-afad-55fbcf23161e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM">
+      <UniqueIdentifier>{8f2984dc-f946-4a06-ae2d-2c3c859bc2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\ImageLoader">
+      <UniqueIdentifier>{354eaf90-f886-4d77-9d8c-656e8a6b777c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes\Stage1">
+      <UniqueIdentifier>{fb7e30db-12de-4c7a-a4f7-65745fae084e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes\Stage2">
+      <UniqueIdentifier>{0c2633dc-4aab-4994-88c7-5b84cc333605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\MouseCursor">
+      <UniqueIdentifier>{dd90ab0d-bb9b-4963-a92d-10fa0870ee57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\MapViewer">
+      <UniqueIdentifier>{36e73d1c-e64e-4618-908c-bdd7b1ae90e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\Trigger">
+      <UniqueIdentifier>{458cb642-7682-4e78-aab9-6484306c5078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\GageBar">
+      <UniqueIdentifier>{ebe4137c-e43a-4ec4-8974-fcd030a42e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS">
+      <UniqueIdentifier>{904081a4-748f-4ff6-a2c0-827cbd78971b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\LifeUnit">
+      <UniqueIdentifier>{c60bfb42-4f6b-47e3-83f9-27eda0c5c1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\LifeUnit\Player">
+      <UniqueIdentifier>{f9fb57a7-c652-4589-bddd-7740eeef2310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\LifeUnit\Enemy">
+      <UniqueIdentifier>{368095a2-9f66-4cbc-8b4c-6f5aced7c27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\LifeUnit\Enemy\Mob1">
+      <UniqueIdentifier>{d84a302a-62b9-4261-b20a-3f64b49ec08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\LifeUnit\Enemy\Mob2">
+      <UniqueIdentifier>{6a2ac32f-8586-49db-b783-9dba2fdd7da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Gun">
+      <UniqueIdentifier>{0c0e4ec9-7c1a-43f4-8952-92c1a24d1873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Gun\Guns">
+      <UniqueIdentifier>{b699db75-cd3e-4769-81ad-c441ca0b24a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Gun\Guns\Pistol">
+      <UniqueIdentifier>{ad513f2b-23f5-42e0-a27c-1be40e82fb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Gun\Guns\ShotGun">
+      <UniqueIdentifier>{71f69c34-3777-4ba3-aeb1-d7185ff9f06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\Parabola">
+      <UniqueIdentifier>{50e4ec1f-29cd-480c-8ca4-0cfd38d2a496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Bullet">
+      <UniqueIdentifier>{6827b0e6-5436-4c7c-b253-cd9a27d16f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Bullet\NormalBullet">
+      <UniqueIdentifier>{c58f696b-4af4-4e9a-8f59-b94fca001a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Bullet\LaserBullet">
+      <UniqueIdentifier>{14256f85-7c4a-42d6-9f61-130b38a260af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Bullet\BazookaBullet">
+      <UniqueIdentifier>{f9c5ad3a-cb6d-4455-a6ed-d1d395361a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\EFFECT">
+      <UniqueIdentifier>{5d176b65-05d7-4bf9-b018-22a22ceaea2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\EFFECT\SpawnEffect">
+      <UniqueIdentifier>{405acde9-ef05-4299-8384-f7e09edef7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\UI">
+      <UniqueIdentifier>{7b6f6ee6-82cf-45d9-812b-9087ffeacf81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\UI\InfoRenderer">
+      <UniqueIdentifier>{d8611c8f-03cb-45e2-9340-92b98fa05329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\UI\DamageFont">
+      <UniqueIdentifier>{49d4a3ba-9314-4fe3-b991-735b54889693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\EFFECT\ExtinctEffect">
+      <UniqueIdentifier>{d0a758ca-6507-48ae-bffa-3e75e92a862b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Gun\Guns\Spread">
+      <UniqueIdentifier>{32d0b056-a76d-404c-ba86-0f1f0a318cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Gun\Guns\Laser">
+      <UniqueIdentifier>{4d2419a8-27da-4b51-9361-a1aa04af5e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Sound">
+      <UniqueIdentifier>{bdadc283-fec1-4947-b081-7a5cbcb39776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Bullet\TimeBullet">
+      <UniqueIdentifier>{c1b10a45-6761-4cb9-a08d-66b81bf1b155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\LifeUnit\Enemy\Boss">
+      <UniqueIdentifier>{87a3eed5-9b71-437d-9144-34eb6ed186e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\EFFECT\Explode">
+      <UniqueIdentifier>{8c8bd867-adb8-48b9-a1a7-68afdf3ac72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\EFFECT\FrameEffect">
+      <UniqueIdentifier>{59234ea8-fd24-4798-97e4-5a3e4b891372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\EFFECT\ScreenEffect">
+      <UniqueIdentifier>{c225b977-0435-4384-b175-325805a8077e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\Scenes\Title">
+      <UniqueIdentifier>{7424c9ff-1f8e-4143-8559-b30e80c7e0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\TitleUnits">
+      <UniqueIdentifier>{259d2a09-3209-4f0f-ab25-18b873a0dc0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\Button">
+      <UniqueIdentifier>{a4435958-84ae-414a-ba8e-4ddd6fdf538c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\CUSTOM\GageBar2">
+      <UniqueIdentifier>{4507c03c-1623-40cc-81ec-4017ef49840a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\Bullet\DownBullet">
+      <UniqueIdentifier>{5fe18dd8-5199-4676-858b-83f4c2af758c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\UI\Reload">
+      <UniqueIdentifier>{84a8ffa3-89c8-43f0-92f5-e292b77dfa4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE\MANAGERS\Data">
+      <UniqueIdentifier>{0abf3e48-f831-4cfa-918b-ea92fe49a313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\UI\PolliceOffice">
+      <UniqueIdentifier>{328f4537-dabb-4c03-8ef7-6205e03dc33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME\OBJECTS\BossWarning">
+      <UniqueIdentifier>{90e5ba55-2186-445b-8474-af13373682da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>ENGINE\Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>ENGINE\DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>ENGINE\Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="ShootingGame02.rc">
+      <Filter>ENGINE\Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="Maingame.h">
+      <Filter>GAME\Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ENGINE\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>ENGINE\MANAGERS\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>ENGINE\MANAGERS\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>ENGINE\MANAGERS\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>ENGINE\MANAGERS\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>ENGINE\MANAGERS\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ENGINE\MANAGERS\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ENGINE\OBJECTS\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ENGINE\OBJECTS\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>ENGINE\OBJECTS\Texture\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>ENGINE\OBJECTS\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>ENGINE\OBJECTS\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>ENGINE\OBJECTS\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ENGINE\OBJECTS\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>ENGINE\CUSTOM\ImageLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>GAME\Scenes\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GAME\OBJECTS\LifeUnit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeUnit.h">
+      <Filter>GAME\OBJECTS\LifeUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>GAME\Scenes\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>GAME\OBJECTS\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Pistol.h">
+      <Filter>GAME\OBJECTS\Gun\Guns\Pistol</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GAME\OBJECTS\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCursor.h">
+      <Filter>ENGINE\CUSTOM\MouseCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="MapViewer.h">
+      <Filter>ENGINE\CUSTOM\MapViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>ENGINE\CUSTOM\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnEffect.h">
+      <Filter>GAME\OBJECTS\EFFECT\SpawnEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob1.h">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy\Mob1</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob2.h">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy\Mob2</Filter>
+    </ClInclude>
+    <ClInclude Include="GageBar.h">
+      <Filter>ENGINE\CUSTOM\GageBar</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoRenderer.h">
+      <Filter>GAME\OBJECTS\UI\InfoRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Parabola.h">
+      <Filter>ENGINE\CUSTOM\Parabola</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageFont.h">
+      <Filter>GAME\OBJECTS\UI\DamageFont</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtinctEffect.h">
+      <Filter>GAME\OBJECTS\EFFECT\ExtinctEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>GAME\OBJECTS\Bullet\NormalBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Spread.h">
+      <Filter>GAME\OBJECTS\Gun\Guns\Spread</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserGun.h">
+      <Filter>GAME\OBJECTS\Gun\Guns\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBullet.h">
+      <Filter>GAME\OBJECTS\Bullet\LaserBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBullet.h">
+      <Filter>GAME\OBJECTS\Bullet\TimeBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bazooka.h">
+      <Filter>GAME\OBJECTS\Gun\Guns\ShotGun</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>ENGINE\MANAGERS\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Explode.h">
+      <Filter>GAME\OBJECTS\EFFECT\Explode</Filter>
+    </ClInclude>
+    <ClInclude Include="BazookaBullet.h">
+      <Filter>GAME\OBJECTS\Bullet\BazookaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameEffect.h">
+      <Filter>GAME\OBJECTS\EFFECT\FrameEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenEffect.h">
+      <Filter>GAME\OBJECTS\EFFECT\ScreenEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUnits.h">
+      <Filter>GAME\OBJECTS\TitleUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>GAME\Scenes\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>ENGINE\CUSTOM\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="GageBar2.h">
+      <Filter>ENGINE\CUSTOM\GageBar2</Filter>
+    </ClInclude>
+    <ClInclude Include="DownBullet.h">
+      <Filter>GAME\OBJECTS\Bullet\DownBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Reload.h">
+      <Filter>GAME\OBJECTS\UI\Reload</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>ENGINE\MANAGERS\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PolliceOffice.h">
+      <Filter>GAME\OBJECTS\UI\PolliceOffice</Filter>
+    </ClInclude>
+    <ClInclude Include="BossWarning.h">
+      <Filter>GAME\OBJECTS\BossWarning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShootingGame02.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="Maingame.cpp">
+      <Filter>GAME\Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>ENGINE\MANAGERS\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>ENGINE\MANAGERS\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>ENGINE\MANAGERS\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>ENGINE\MANAGERS\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ENGINE\MANAGERS\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ENGINE\MANAGERS\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>ENGINE\OBJECTS\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ENGINE\OBJECTS\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>ENGINE\OBJECTS\Texture\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>ENGINE\OBJECTS\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>ENGINE\OBJECTS\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>ENGINE\OBJECTS\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ENGINE\OBJECTS\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>ENGINE\CUSTOM\ImageLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>GAME\Scenes\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GAME\OBJECTS\LifeUnit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeUnit.cpp">
+      <Filter>GAME\OBJECTS\LifeUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>GAME\Scenes\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>GAME\OBJECTS\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Pistol.cpp">
+      <Filter>GAME\OBJECTS\Gun\Guns\Pistol</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GAME\OBJECTS\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCursor.cpp">
+      <Filter>ENGINE\CUSTOM\MouseCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="MapViewer.cpp">
+      <Filter>ENGINE\CUSTOM\MapViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>ENGINE\CUSTOM\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnEffect.cpp">
+      <Filter>GAME\OBJECTS\EFFECT\SpawnEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob1.cpp">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy\Mob1</Filter>
+    </ClCompile>
+    <ClCompile Include="Mob2.cpp">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy\Mob2</Filter>
+    </ClCompile>
+    <ClCompile Include="GageBar.cpp">
+      <Filter>ENGINE\CUSTOM\GageBar</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoRenderer.cpp">
+      <Filter>GAME\OBJECTS\UI\InfoRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Parabola.cpp">
+      <Filter>ENGINE\CUSTOM\Parabola</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageFont.cpp">
+      <Filter>GAME\OBJECTS\UI\DamageFont</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtinctEffect.cpp">
+      <Filter>GAME\OBJECTS\EFFECT\ExtinctEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>GAME\OBJECTS\Bullet\NormalBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Spread.cpp">
+      <Filter>GAME\OBJECTS\Gun\Guns\Spread</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserGun.cpp">
+      <Filter>GAME\OBJECTS\Gun\Guns\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBullet.cpp">
+      <Filter>GAME\OBJECTS\Bullet\LaserBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeBullet.cpp">
+      <Filter>GAME\OBJECTS\Bullet\TimeBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bazooka.cpp">
+      <Filter>GAME\OBJECTS\Gun\Guns\ShotGun</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>ENGINE\MANAGERS\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>GAME\OBJECTS\LifeUnit\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Explode.cpp">
+      <Filter>GAME\OBJECTS\EFFECT\Explode</Filter>
+    </ClCompile>
+    <ClCompile Include="BazookaBullet.cpp">
+      <Filter>GAME\OBJECTS\Bullet\BazookaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameEffect.cpp">
+      <Filter>GAME\OBJECTS\EFFECT\FrameEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenEffect.cpp">
+      <Filter>GAME\OBJECTS\EFFECT\ScreenEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUnits.cpp">
+      <Filter>GAME\OBJECTS\TitleUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>GAME\Scenes\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>ENGINE\CUSTOM\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="GageBar2.cpp">
+      <Filter>ENGINE\CUSTOM\GageBar2</Filter>
+    </ClCompile>
+    <ClCompile Include="DownBullet.cpp">
+      <Filter>GAME\OBJECTS\Bullet\DownBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Reload.cpp">
+      <Filter>GAME\OBJECTS\UI\Reload</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>ENGINE\MANAGERS\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PolliceOffice.cpp">
+      <Filter>GAME\OBJECTS\UI\PolliceOffice</Filter>
+    </ClCompile>
+    <ClCompile Include="BossWarning.cpp">
+      <Filter>GAME\OBJECTS\BossWarning</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
